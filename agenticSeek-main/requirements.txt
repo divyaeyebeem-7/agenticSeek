@@ -21,7 +21,7 @@ python-dotenv>=1.0.0
 ollama>=0.4.7
 scipy>=1.9.3
 soundfile>=0.13.1
-protobuf>=3.20.3
+protobuf>=4.25.8
 termcolor>=2.4.0
 pypdf>=5.4.0
 ipython>=8.13.0
@@ -46,3 +46,4 @@ openai
 sniffio
 ordered_set
 pypinyin
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
